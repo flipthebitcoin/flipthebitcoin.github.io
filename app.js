@@ -1485,7 +1485,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('>'),
                 disabled: !!this.state.waitingForServer
               },
-              'Bet Hi ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
+              'Heads ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
             )
           ),
           // bet lo
@@ -1499,7 +1499,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('<'),
                 disabled: !!this.state.waitingForServer
               },
-              'Bet Lo ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'L') : ''
+              'Tails ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'L') : ''
             )
           )
         );
