@@ -1935,15 +1935,15 @@ var BetRow = React.createClass({
         ' bits'
       ),
       // Target
-      el.td(
-        {
-          className: 'text-right',
-          style: {
-            fontFamily: 'monospace'
-          }
-        },
-        bet.cond + bet.target.toFixed(2)
-      ),
+      //el.td(
+      //  {
+      //    className: 'text-right',
+      //    style: {
+      //      fontFamily: 'monospace'
+      //    }
+      //  },
+      //  bet.cond + bet.target.toFixed(2)
+      //),
       // // Roll
       // el.td(
       //   null,
