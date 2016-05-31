@@ -1,3 +1,20 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @flipthebitcoin
+ Unwatch 1
+  Star 0
+  Fork 187 flipthebitcoin/flipthebitcoin.github.io
+forked from untitled-dice/untitled-dice.github.io
+ Code  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Tree: 16f877a917 Find file Copy pathflipthebitcoin.github.io/app.js
+16f877a  11 minutes ago
+@flipthebitcoin flipthebitcoin Update app.js
+2 contributors @untitled-dice @flipthebitcoin
+RawBlameHistory     2366 lines (2174 sloc)  65.8 KB
 // Untitled Dice v0.0.8
 
 // Customize these configuration settings:
@@ -915,10 +932,6 @@ var ChatBoxInput = React.createClass({
             'Send'
           )
         )
-      )
-    );
-  }
-});
       )
     );
   }
@@ -2367,3 +2380,5 @@ window.addEventListener('message', function(event) {
     Dispatcher.sendAction('START_REFRESHING_USER');
   }
 }, false);
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
