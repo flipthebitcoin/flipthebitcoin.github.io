@@ -2315,7 +2315,7 @@ function onRecaptchaLoad() {
 }
 
 $(document).on('keydown', function(e) {
-  var H = 72, L = 76, C = 67, X = 88, keyCode = e.which;
+  var H = 72, T = 76, C = 67, X = 88, keyCode = e.which;
 
   // Bail is hotkeys aren't currently enabled to prevent accidental bets
   if (!worldStore.state.hotkeysEnabled) {
