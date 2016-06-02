@@ -901,20 +901,7 @@ var ChatBoxInput = React.createClass({
               }
             )
         ),
-        el.div(
-          {className: 'col-md-3'},
-          el.button(
-            {
-              type: 'button',
-              className: 'btn btn-default btn-block',
-              disabled: !worldStore.state.user ||
-                chatStore.state.waitingForServer ||
-                this.state.text.trim().length === 0,
-              onClick: this._onSend
-            },
-            'Send'
-          )
-        )
+        
       )
     );
   }
