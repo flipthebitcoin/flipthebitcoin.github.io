@@ -1,6 +1,6 @@
 body {
-	background: linear-gradient(270deg, #f5f5fa, #616b8e);
-	background-size: 600% 600%;
+	background: linear-gradient(230deg,#a24bcf,#4b79cf,#4bc5cf);
+	background-size: 300% 300%;
 	-webkit-animation: Gradient 60s ease infinite;
 	-moz-animation: Gradient 60s ease infinite;
 	animation: Gradient 60s ease infinite;
@@ -22,7 +22,9 @@ body {
 		50%{background-position:100% 50%}
 		100%{background-position:0% 50%}
 	}
-
+.table {
+	background-color: #fff;
+}
 .navbar .navbar-brand {
     color: #777777;
 }
