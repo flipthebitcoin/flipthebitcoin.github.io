@@ -796,10 +796,7 @@ var Navbar = React.createClass({
         {className: 'container-fluid'},
         el.div(
           {className: 'navbar-header'},
-          el.a({className: 'navbar-brand', href:'/'}, config.app_name),
-          el.span(
-                {className: 'glyphicon glyphicon-bitcoin'}
-              )
+          el.a({className: 'navbar-brand', 'glyphicon glyphicon-bitcoin', href:'/'}, config.app_name)
         ),
         // Links
         el.ul(
