@@ -796,7 +796,11 @@ var Navbar = React.createClass({
         {className: 'container-fluid'},
         el.div(
           {className: 'navbar-header'},
-          el.a({className: 'navbar-brand', href:'/'})
+          el.a({className: 'navbar-brand', href:'/'},
+          el.span(
+                {innerHTML = "<img src='http://i.imgur.com/hkfEBWX.png'>";}
+              )
+          )
         ),
         // Links
         el.ul(
