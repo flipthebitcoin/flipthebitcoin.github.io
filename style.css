@@ -1,10 +1,5 @@
 body {
-    margin-top: 20px;
     background-image: url(http://habboemotion.com/resources/images/website_backgrounds/vara.gif);
-	background-position: 0px 0px;
-	background-repeat: repeat-x;
-
-	animation: animatedBackground 40s linear infinite;
 }
 
 .navbar .navbar-brand {
