@@ -798,7 +798,7 @@ var Navbar = React.createClass({
           {className: 'navbar-header'},
           el.a({className: 'navbar-brand', href:'/'},
           el.span(
-                el.div33( className: 'div33')
+                el.div33({className: 'div33'})
               )
           )
         ),
