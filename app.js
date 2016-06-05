@@ -798,7 +798,7 @@ var Navbar = React.createClass({
           {className: 'navbar-header'},
           el.a({className: 'navbar-brand', href:'/'},
           el.span(
-                {innerHTML = "<img src='http://i.imgur.com/hkfEBWX.png'>";}
+                {innerHTML = "<img src='http://i.imgur.com/hkfEBWX.png'>"}
               )
           )
         ),
