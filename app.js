@@ -796,9 +796,15 @@ var Navbar = React.createClass({
         {className: 'container-fluid'},
         el.div(
           {className: 'navbar-header'},
-          el.a({className: 'navbar-brand', href:'/'}, el.span(
-                {className: 'glyphicon glyphicon-bitcoin'}
-              ))
+          el.a({className: 'navbar-brand', href:'/'}, 
+          img = new Image();
+
+img.onload = function(){
+  // image  has been loaded
+};
+
+img.src = 'http://i.imgur.com/hkfEBWX.png';
+          )
         ),
         // Links
         el.ul(
