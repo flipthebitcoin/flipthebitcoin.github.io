@@ -797,6 +797,7 @@ var Navbar = React.createClass({
         el.div(
           {className: 'navbar-header'},
           el.a({className: 'navbar-brand', href:'/'}, config.app_name)
+          document.write("<img src='https://bitcoin.org/img/icons/opengraph.png' style="width: 40px; height: 40px;">");
         ),
         // Links
         el.ul(
