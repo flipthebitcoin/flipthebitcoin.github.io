@@ -1586,11 +1586,11 @@ var BetBox = React.createClass({
               {className: 'col-xs-6'},
               React.createElement(BetBoxWager, null)
             ),
-            // AQUI JAZ O MULTIPLIER
-            // el.div(
-            //  {className: 'col-xs-6'},
-            //  React.createElement(BetBoxMultiplier, null)
-            //),
+            // Multiplier
+             el.div(
+              {className: 'col-xs-6'},
+              React.createElement(BetBoxMultiplier, null)
+            ),
             // HR
             el.div(
               {className: 'row'},
