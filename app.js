@@ -799,23 +799,23 @@ var Navbar = React.createClass({
           el.a({className: 'navbar-brand', href:'/'} )
         ),
         // Links
-        el.ul(
-          {className: 'nav navbar-nav'},
-          el.li(
-            null,
-            el.a(
-              {
-                href: config.mp_browser_uri + '/apps/' + config.app_id,
-                target: '_blank'
-              },
-              'View on Moneypot ',
-              // External site glyphicon
-              el.span(
-                {className: 'glyphicon glyphicon-new-window'}
-              )
-            )
-          )
-        ),
+        //el.ul(
+        //  {className: 'nav navbar-nav'},
+        //  el.li(
+        //    null,
+        //    el.a(
+        //      {
+        //        href: config.mp_browser_uri + '/apps/' + config.app_id,
+        //        target: '_blank'
+        //      },
+        //      'View on Moneypot ',
+        //      // External site glyphicon
+        //      el.span(
+        //        {className: 'glyphicon glyphicon-new-window'}
+        //      )
+        //    )
+        //  )
+        //),
         // Userbox
         React.createElement(UserBox, null)
       )
