@@ -1169,11 +1169,11 @@ var BetBoxMultiplier = React.createClass({
   _validateMultiplier: function(newStr) {
     var num = parseFloat(newStr, 10);
 
-    // If num is a number, ensure it's at least 0.01x
-    // if (Number.isFinite(num)) {
-    //   num = Math.max(num, 0.01);
-    //   this.props.currBet.setIn(['multiplier', 'str'], num.toString());
-    // }
+     If num is a number, ensure it's at least 0.01x
+     if (Number.isFinite(num)) {
+       num = Math.max(num, 0.01);
+       this.props.currBet.setIn(['multiplier', 'str'], num.toString());
+     }
 
     var isFloatRegexp = /^(\d*\.)?\d+$/;
 
