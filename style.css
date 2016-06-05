@@ -26,7 +26,10 @@ body {
 	background-color: #fff;
 }
 
-.div33 { background-image: url('http://i.imgur.com/hkfEBWX.png');
+.div33 { background-image: url('http://i.imgur.com/hkfEBWX.png';) 
+	width: 200px;
+	height: 50px;
+}
 
 .navbar .navbar-brand {
     color: #777777;
