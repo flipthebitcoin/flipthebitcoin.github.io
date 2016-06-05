@@ -1,5 +1,32 @@
 body {
     margin-top: 20px;
+    background: linear-gradient(144deg, #e1e60e, #323222);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 22s ease infinite;
+-moz-animation: AnimationName 22s ease infinite;
+-o-animation: AnimationName 22s ease infinite;
+animation: AnimationName 22s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
 }
 
 .navbar .navbar-brand {
