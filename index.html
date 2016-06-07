@@ -10,6 +10,7 @@
 </head>
 <body>
   <div id="app"></div>
+  <div id="particles-js"></div>
   <script src="./node_modules/react/dist/react.js"></script>
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/CBuffer/cbuffer.js"></script>
@@ -22,5 +23,33 @@
   <script src="./app.js" type="text/javascript"></script>
   <script src="//www.google.com/recaptcha/api.js?render=explicit&onload=onRecaptchaLoad" async defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.3.0/trianglify.min.js"></script>
+  <script>
+    function changeBg() {
+     var colorFunc = function(x, y) {
+       return 'hsl('+Math.floor(Math.abs(x*y)*360)+',80%,60%)';
+     };
+     var pattern = Trianglify({
+       height: window.innerHeight * 1.2,
+       width: window.innerWidth,
+       color_function: colorFunc
+     });
+     var bgString = 'url(' + pattern.png() + ')';
+     var styles = '<style>body::before{background:' + bgString + '}</style>';
+     $('head').append(styles);
+   }
+   changeBg();
+   $('.reload-bg .btn').click(function(){
+     changeBg();
+   });
+  </script>
+  <script src="https://cdn.rawgit.com/VincentGarreau/particles.js/438c12d5fd3a050f25a28341a1a714a3ad2e2b9b/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', './particles.json', function() {
+      console.log('callback - particles-js config loaded');
+    });
+  </script>
 </body>
