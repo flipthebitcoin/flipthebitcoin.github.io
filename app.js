@@ -1487,12 +1487,6 @@ var UserBalanceBox = React.createClass({
             {className: 'pull-right text-right'},
             el.span(
               null,
-              'XP: ' + Math.floor((worldStore.state.user.betted_wager / 100) + worldStore.state.user.betted_count)
-              //'XP: ' + Math.floor(Math.sqrt((worldStore.state.user.betted_wager / (100)) * (worldStore.state.user.betted_count / 10)))
-            ),
-            el.br(),
-            el.span(
-              null,
               worldStore.state.user.betted_wager / 100 + ' bits wagered'
             ),
             el.br(),
