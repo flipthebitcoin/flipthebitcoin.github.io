@@ -1,8 +1,10 @@
 body {
     margin-top: 40px;
     font-family: Roboto;
-    background: linear-gradient(270deg, #2098d1, #a24bcf, #4b79cf);
-background-size: 600% 600%;
+    https://whyaim.com/wp-content/uploads/2012/06/bg.jpg
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
 
 -webkit-animation: AnimationName 80s ease infinite;
 -moz-animation: AnimationName 80s ease infinite;
