@@ -1859,7 +1859,7 @@ var Footer = React.createClass({
           marginBottom: '30px'
         }
       },
-      'copyright 2015 ',
+      'Copyright 2016 - ',
       el.a(
         {
           href: 'https://flipthebitcoin.github.io'
