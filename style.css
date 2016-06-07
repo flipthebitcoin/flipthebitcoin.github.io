@@ -1,37 +1,128 @@
 body {
-	margin-top:25px;
-	background: linear-gradient(230deg,#a24bcf,#4b79cf,#4bc5cf);
-	background-size: 300% 300%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
+    margin-top: 20px;
+    font-family: Roboto;
 }
-	
-    
-    @-webkit-keyframes Gradient {
-		0%{background-position:0% 50%}
-		50%{background-position:100% 50%}
-		100%{background-position:0% 50%}
-	}
-	@-moz-keyframes Gradient {
-		0%{background-position:0% 50%}
-		50%{background-position:100% 50%}
-		100%{background-position:0% 50%}
-	}
-	@keyframes Gradient { 
-		0%{background-position:0% 50%}
-		50%{background-position:100% 50%}
-		100%{background-position:0% 50%}
-	}
-.table {
-	background-color: #fff;
+body::before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: -100;
 }
-
-.navbar .navbar-brand {
-    color: #777777;
+#particles-js {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -99;
+}
+.container-fluid > .navbar-header {
+  margin: 0 auto;
+  float: none;
+  width: 100%;
+}
+.navbar > .container-fluid .navbar-brand {
+    display: block;
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-size: 8rem;
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
 }
 .navbar .brand-name:hover {
     text-decoration: underline;
+}
+.panel {
+  border-radius: 0;
+  box-shadow: 0 5px 3px -3px #777;
+}
+
+#faucet-login-warning {
+  background: #fff;
+  padding: 15px;
+}
+/* buttons */
+.btn {
+  border-radius: 0;
+  border: 0;
+}
+.btn:focus, .btn:active {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+.btn-default.hvr-ripple-out::before {
+  border: #fff solid 6px;
+}
+.btn-default.hvr-ripple-out:hover {
+  background: #fff;
+}
+.btn-success.hvr-ripple-out::before {
+  border: #5cb85c solid 6px;
+}
+.btn-success.hvr-ripple-out:hover {
+  background: #5cb85c;
+}
+
+/* links */
+a {
+  color: #333;
+}
+a:hover {
+  color: #222;
+}
+.nav-tabs > li > a {
+  background: #eee
+}
+.nav-tabs > li > a:hover {
+  background: #fff;
+}
+
+/* inputs */
+.form-control {
+  outline: 0;
+  border-radius: 0;
+  border: 0;
+  background: #efefef;
+  box-shadow: none;
+}
+.form-control:focus {
+  outline: 0;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #333;
+}
+.input-group-addon {
+  border-radius: 0;
+  border: 0;
+}
+
+/* tables */
+table.table {
+  background: white;
+}
+#recaptcha-target {
+  background: white;
 }
 
 /* ChatBox */
@@ -46,6 +137,11 @@ body {
     /* Since .focus() is used to scroll to last message item,
        turn off the outline that appears by default */
     outline: none;
+}
+
+/* typeography */
+.text-muted {
+  color: #333;
 }
 
 /* Animation */
@@ -95,11 +191,4 @@ body {
 .btn kbd,
 .btn .label {
     text-shadow: none;
-}
-
-/* Progress Bar */
-
-.progress-bar-grey {
-    background-color: #767676;
-    background-image: none;
 }
