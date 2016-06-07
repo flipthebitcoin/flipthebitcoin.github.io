@@ -10,7 +10,7 @@ var config = {
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
   recaptcha_sitekey: '6LcbaCETAAAAALKSu7vFgXYgmAUBxza6jmMAHyv_',  // <----- EDIT ME!
-  redirect_uri: 'https://flipthebitcoin.ga',
+  redirect_uri: 'flipthebitcoin.ga',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
