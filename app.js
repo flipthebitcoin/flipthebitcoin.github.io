@@ -1297,7 +1297,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('>'),
                 disabled: !!this.state.waitingForServer
               },
-              'Bet Hi ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
+              'Heads ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
             )
           ),
           // bet lo
@@ -1311,7 +1311,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('<'),
                 disabled: !!this.state.waitingForServer
               },
-              'Bet Lo ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'L') : ''
+              'Tails ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'T') : ''
             )
           )
         );
@@ -1859,7 +1859,7 @@ var Footer = React.createClass({
           marginBottom: '30px'
         }
       },
-      'Copyright 2016 - ',
+      'Copyright 2016 © ',
       el.a(
         {
           href: 'https://flipthebitcoin.github.io'
@@ -2033,7 +2033,7 @@ function onRecaptchaLoad() {
 }
 
 $(document).on('keydown', function(e) {
-  var H = 72, L = 76, C = 67, X = 88, keyCode = e.which;
+  var H = 72, T = 76, C = 67, X = 88, keyCode = e.which;
 
   // Bail is hotkeys aren't currently enabled to prevent accidental bets
   if (!worldStore.state.hotkeysEnabled) {
@@ -2065,7 +2065,7 @@ $(document).on('keydown', function(e) {
       });
 
       break;
-    case L:  // Bet lo
+    case T:  // Bet lo
       $('#bet-lo').click();
       break;
     case H:  // Bet hi
