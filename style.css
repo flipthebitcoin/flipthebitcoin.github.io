@@ -1,7 +1,7 @@
 body {
     margin-top: 40px;
     font-family: Roboto;
-    https://whyaim.com/wp-content/uploads/2012/06/bg.jpg
+    background-image: url('https://whyaim.com/wp-content/uploads/2012/06/bg.jpg');
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;              /* optional, center the image */
