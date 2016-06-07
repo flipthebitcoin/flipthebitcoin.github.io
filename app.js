@@ -2041,7 +2041,7 @@ $(document).on('keydown', function(e) {
   }
 
   // Bail if it's not a key we care about
-  if (keyCode !== H && keyCode !== L && keyCode !== X && keyCode !== C) {
+  if (keyCode !== H && keyCode !== T && keyCode !== X && keyCode !== C) {
     return;
   }
 
