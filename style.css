@@ -94,7 +94,6 @@ a {
 }
 a:hover {
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px orange;
 }
 .nav-tabs > li > a {
   background: #eee
