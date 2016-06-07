@@ -794,10 +794,7 @@ var Navbar = React.createClass({
       {className: 'navbar'},
       el.div(
         {className: 'container-fluid'},
-        el.div(
-          {className: 'navbar-header'},
-          el.a({className: 'navbar-brand', href:'/'} )
-        ),
+        
         // Links
         //el.ul(
         //  {className: 'nav navbar-nav'},
