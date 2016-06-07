@@ -91,10 +91,14 @@ body::before {
 
 /* links */
 a {
-  color: #333;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 3px #000000;
+  box-shadow: 0px 0px 5px orange;
 }
 a:hover {
-  color: #222;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 3px #000000;
+  box-shadow: 0px 0px 5px red;
 }
 .nav-tabs > li > a {
   background: #eee
@@ -149,6 +153,7 @@ table.table {
 .text-muted {
   color: #FFFFFF;
   text-shadow: 2px 2px 3px #000000;
+  box-shadow: 0px 0px 5px orange;
 }
 
 /* Animation */
