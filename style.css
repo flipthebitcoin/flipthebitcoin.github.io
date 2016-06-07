@@ -1,18 +1,14 @@
 body {
     margin-top: 40px;
     font-family: Roboto;
+    
+}
+
+body::before {
     background-image: url('https://whyaim.com/wp-content/uploads/2012/06/bg.jpg');
     background-size: cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;              /* optional, center the image */
-
--webkit-animation: AnimationName 80s ease infinite;
--moz-animation: AnimationName 80s ease infinite;
-animation: AnimationName 80s ease infinite;
-
-}
-
-body::before {
   content: '';
   display: block;
   position: fixed;
