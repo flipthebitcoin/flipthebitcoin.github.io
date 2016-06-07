@@ -1862,9 +1862,9 @@ var Footer = React.createClass({
       'copyright 2015 ',
       el.a(
         {
-          href: 'https://neodice.github.io'
+          href: 'https://flipthebitcoin.github.io'
         },
-        'neodice'
+        'FlipTheBitcoin'
       ),
       el.span(
         null,
